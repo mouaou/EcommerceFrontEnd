@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "EcommerceFrontEnd"
+    }
+  },
+  "defaultProject": "EcommerceFrontEnd",
+  "cli": {
+    "analytics": "a8cfca2d-0d58-43ff-80a2-56bf836bca6d"
+  }
 }

@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
         this.categories=data;
         console.log("u here");
       },err=>{
-        console.log("Error");
+        console.log(err);
       }
     )
   }

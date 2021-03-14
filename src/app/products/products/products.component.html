@@ -1,13 +1,13 @@
 <div *ngIf="products">   
     <div *ngFor="let p of products._embedded.products">
-        <div class="col-md-3">
+        <div class="col-md-6">
             <div class="card" >
                 <div class="card-header">{{p.name}}</div>
                 <div class="card-body">
                     <table>
                         <tr>
                             <td>
-                                <img src=""/>
+                                <img src="{{this.catService.host+'/photoProduct/'+p.id}}"/>
                             </td>
                         </tr>
                     </table>
